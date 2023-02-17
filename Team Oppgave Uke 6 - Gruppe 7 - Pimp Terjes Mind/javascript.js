@@ -39,8 +39,6 @@ function showProgress() {
     <div class="iqProgress">
         <div class="iqBar">100-IQ</div>
     </div>
-    <button onclick="updateProgress(bookIqPlus, 'plus')">Donwload_More_IQ.hacks.exe</button>
-    <button onclick="updateProgress(bookIqMinus, 'minus')">Donwload_Less_IQ.hacks.exe</button> 
     `
     progressDiv.innerHTML = html;
 }
